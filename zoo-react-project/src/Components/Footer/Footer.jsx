@@ -12,7 +12,7 @@ const Footer = () => {
           </div>
           <div className={styles.section}>
             <h4>Visit Us</h4>
-            <p>Open daily 9:00 AM - 5:00 PM</p>
+            <p>Open daily 11:00 AM - 00:00 PM</p>
             <p>Phone: (07) 5436 2000</p>
           </div>
           <div className={styles.section}>
@@ -21,7 +21,7 @@ const Footer = () => {
           </div>
         </div>
         <div className={styles.bottom}>
-          <p>&copy; 2024 Australia Zoo. All rights reserved.</p>
+          <p>&copy; 2024 Yasmine Borghol. All rights reserved.</p>
         </div>
       </div>
     </footer>
