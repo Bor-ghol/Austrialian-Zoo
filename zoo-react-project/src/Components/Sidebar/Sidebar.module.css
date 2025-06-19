@@ -1,0 +1,64 @@
+.sidebar {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-right: 1px solid #dee2e6;
+  min-height: 100%;
+}
+
+.title {
+  color: #2c5530;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  border-bottom: 2px solid #7fb069;
+  padding-bottom: 0.5rem;
+}
+
+.animalList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.animalButton {
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  padding: 0.8rem; 
+  margin-bottom: 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+  color: #333;
+}
+
+.animalButton:hover {
+  background-color: #e9ecef;
+  color: #2c5530;
+}
+
+.animalButton.active {
+  background-color: #7fb069;
+  color: white;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    padding: 1rem;
+  }
+  
+  .animalList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .animalButton {
+    flex: 1;
+    min-width: 120px; 
+    text-align: center;
+    margin-bottom: 0;
+  }
+}

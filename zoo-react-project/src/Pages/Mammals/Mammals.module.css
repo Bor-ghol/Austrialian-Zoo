@@ -1,0 +1,78 @@
+.mammalsPage {
+  display: flex;
+  min-height: calc(100vh - 120px);
+}
+
+.groupInfo {
+  text-align: center;
+  padding: 2rem;
+}
+
+.groupInfo h1 {
+  color: #2c5530;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.infoContent {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.infoContent > p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.feature {
+  background-color: #f8f9fa;
+  padding: 2rem;
+  border-radius: 8px;
+  border-left: 4px solid #7fb069;
+}
+
+.feature h3 {
+  color: #2c5530;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.feature p {
+  color: #666;
+  line-height: 1.5;
+}
+
+.instruction {
+  font-style: italic;
+  color: #7fb069;
+  font-weight: 500;
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .mammalsPage {
+    flex-direction: column;
+  }
+  
+  .groupInfo h1 {
+    font-size: 2rem;
+  }
+  
+  .features {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .feature {
+    padding: 1.5rem;
+  }
+}

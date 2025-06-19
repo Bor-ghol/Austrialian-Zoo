@@ -1,0 +1,12 @@
+.mainContent {
+  flex: 1;
+  padding: 2rem;
+  background-color: white;
+  overflow-y: auto;
+}
+
+@media (max-width: 768px) {
+  .mainContent {
+    padding: 1rem;
+  }
+}
