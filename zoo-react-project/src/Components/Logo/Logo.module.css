@@ -1,20 +1,49 @@
 .logo {
+  display: flex;
+  align-items: center;
   text-decoration: none;
-  color: inherit;
-}
-
-.logo h1 {
-  font-size: 1.8rem;
-  font-weight: bold;
-  margin: 0;
+  color: white;
+  transition: all 0.3s ease;
 }
 
 .logo:hover {
-  opacity: 0.8;
+  transform: scale(1.05);
+  color: #ffd93d;
+}
+
+.logoText {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-left: 0.5rem;
+  background: linear-gradient(45deg, #ffd93d, #ff6b6b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.logoIcon {
+  font-size: 2.5rem;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
 }
 
 @media (max-width: 768px) {
-  .logo h1 {
+  .logoText {
     font-size: 1.5rem;
+  }
+  
+  .logoIcon {
+    font-size: 2rem;
   }
 }
