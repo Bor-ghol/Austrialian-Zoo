@@ -64,10 +64,6 @@ const AnimalSummary = ({ animal }) => {
             <h2 className={styles.name}>{animal.name}</h2>
             <div className={styles.quickStats}>
               <span className={styles.stat}>
-                <span className={styles.statIcon}>📏</span>
-                {animal.size}
-              </span>
-              <span className={styles.stat}>
                 <span className={styles.statIcon}>⚖️</span>
                 {animal.weight}
               </span>
