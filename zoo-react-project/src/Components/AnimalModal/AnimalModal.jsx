@@ -17,7 +17,7 @@ const AnimalModal = ({ animal, onClose }) => {
               alt={animal.name}
               className={styles.image}
               onError={(e) => {
-                e.target.src = '/images/placeholder.jpg';
+                e.target.src = '/Images';
               }}
             />
           </div>
