@@ -9,7 +9,7 @@ export const animals = [
     length: "76cm",
     weight: "10kg",
     found: "Throughout Australia",
-    image: "/images/echidna.jpg"
+    image: "/Images/echidna.jpg"
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ export const animals = [
     length: "70cm",
     weight: "10kg",
     found: "Tasmania",
-    image: "/images/tasmanian-devil.jpg"
+    image: "/Images/tasmanian-devil.jpg"
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ export const animals = [
     length: "50cm",
     weight: "3kg",
     found: "Only found on Rottnest Island and a few places on mainland Western Australia",
-    image: "/images/quokka.jpg"
+    image: "/Images/quokka.jpg"
   },
   {
     id: 4,
@@ -45,7 +45,7 @@ export const animals = [
     length: "90cm",
     weight: "1kg",
     found: "Northern Australia",
-    image: "/images/frill-necked-lizard.jpg"
+    image: "/Images/frill-necked-lizard.jpg"
   },
   {
     id: 5,
@@ -57,7 +57,7 @@ export const animals = [
     length: "80cm (carapace)",
     weight: "50kg",
     found: "Tropical coasts of Queensland, Northern Territory and Western Australia",
-    image: "/images/hawksbill-turtle.jpg"
+    image: "/Images/hawksbill-turtle.jpg"
   },
   {
     id: 6,
@@ -69,7 +69,7 @@ export const animals = [
     length: "2.5m",
     weight: "20kg",
     found: "Deserts",
-    image: "/images/perentie.jpg"
+    image: "/Images/perentie.jpg"
   },
   {
     id: 7,
@@ -81,7 +81,7 @@ export const animals = [
     length: "1.7m",
     weight: "44kg",
     found: "Queensland",
-    image: "/images/cassowary.jpg"
+    image: "/Images/cassowary.jpg"
   },
   {
     id: 8,
@@ -93,7 +93,7 @@ export const animals = [
     length: "43cm",
     weight: "300g",
     found: "Australia wide",
-    image: "/images/kookaburra.jpg"
+    image: "/Images/kookaburra.jpg"
   },
   {
     id: 9,
@@ -105,6 +105,6 @@ export const animals = [
     length: "65cm",
     weight: "900g",
     found: "SE Australia",
-    image: "/images/yellow-tailed-black-cockatoo.jpg"
+    image: "/Images/yellow-tailed-black-cockatoo.jpg"
   }
 ];
