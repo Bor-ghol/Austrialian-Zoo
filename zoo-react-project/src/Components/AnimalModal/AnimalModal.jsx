@@ -16,9 +16,6 @@ const AnimalModal = ({ animal, onClose }) => {
               src={animal.image} 
               alt={animal.name}
               className={styles.image}
-              onError={(e) => {
-                e.target.src = '/Images';
-              }}
             />
           </div>
           <div className={styles.details}>
